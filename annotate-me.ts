@@ -50,7 +50,7 @@ const unsanitizedNumber = (input: string): UnsanitizedNumber | null => {
   } else {
     return {
       kind: 'unsanitized-number',
-      value: parseInt(input),
+      value: num,
     }
   }
 }
