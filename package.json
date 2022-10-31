@@ -5,7 +5,7 @@
   "main": "index.ts",
   "type": "module",
   "scripts": {
-    "start": "ts-node annotate-me.ts",
+    "start": "ts-node --esm annotate-me.ts",
     "test": "tsc"
   },
   "author": "",
